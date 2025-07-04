@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #a2d4fd 0%, #e7f1fb 100%);
+  font-family: 'Segoe UI', 'Poppins', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-signup-container {
+  width: 350px;
+  background: rgba(255,255,255,0.97);
+  border-radius: 18px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.14);
+  padding: 32px 30px 22px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor-img {
+  width: 85px;
+  height: 85px;
+  border-radius: 50%;
+  margin-bottom: 18px;
+  box-shadow: 0 0 14px 2px #b6dfff77;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0 0 7px 0;
+  color: #2476c4;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.subtitle {
+  color: #3b4a5a;
+  font-size: 1.02rem;
+  margin-bottom: 17px;
+  text-align: center;
+}
+
+.tab-buttons {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+  margin-bottom: 18px;
+  justify-content: center;
+}
+
+.tab-buttons button {
+  width: 50%;
+  padding: 8px 0;
+  border: none;
+  border-radius: 10px 10px 0 0;
+  background: #e7f1fb;
+  color: #2476c4;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.18s, color 0.18s;
+}
+
+.tab-buttons button.active {
+  background: #47a9e5;
+  color: #fff;
+}
+
+.form-container {
+  width: 100%;
+  margin-bottom: 9px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px 13px;
+  border-radius: 13px;
+  border: 1.2px solid #bce4fc;
+  font-size: 16px;
+  background: #f6fbff;
+}
+
+button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 13px;
+  border: none;
+  background: linear-gradient(90deg, #47a9e5 60%, #33c481 100%);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+}
+
+button[type="submit"]:hover {
+  background: linear-gradient(90deg, #2d7fc4 60%, #21a17e 100%);
+}
+
+.form-error {
+  color: #c80000;
+  font-size: 14px;
+  min-height: 16px;
+  text-align: center;
+  margin-top: 2px;
+}
