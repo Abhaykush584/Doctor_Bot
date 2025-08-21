@@ -10,7 +10,7 @@
 - **Symptom-Based Prediction**: Users can enter symptoms to receive a disease prediction via a trained ML model.
 - **Skin Disease Prediction**: Upload a skin image to get a classification and confidence score.
 - **Eye Disease Prediction**: Upload an eye image for AI-based class prediction.
-- **Modern Frontend**: User-friendly login and sign-up page with clean UI/UX.
+- **Modern Frontend**: User-friendly login and sign-up page with clean frontend.
 - **API Backend**: RESTful API endpoints for frontend integration.
 - **Modular Code Structure**: Separation of database logic (db.py) and Flask app/API logic (app.py).
 
